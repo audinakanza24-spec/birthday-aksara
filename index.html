@@ -3,32 +3,49 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Untukmu</title>
-
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600&family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+<title>Untuk Aksara</title>
 
 <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<div class="opening">
+<div id="opening" class="screen">
 
-<h1>Untuk Seseorang yang Sangat Berarti.</h1>
+<h1>Untuk Aksara.</h1>
 
 <p>
-Ada sesuatu yang ingin kusampaikan.
-Tidak terburu-buru.
-Tidak juga untuk mengubah apa pun.
-Hanya sebuah kenangan
-yang ingin kusimpan bersamamu.
+Sebelum semuanya dimulai...
+aku hanya ingin meminta sedikit waktumu.
 </p>
 
-<button onclick="startWebsite()">
-Buka
+<button id="startBtn">
+Buka Surat
 </button>
+
+</div>
+
+<div id="letter" class="screen hidden">
+
+<div class="paper">
+
+<h2>Selamat Ulang Tahun.</h2>
+
+<p id="typing"></p>
+
+<button id="nextBtn">
+Lihat Kenangan
+</button>
+
+</div>
+
+</div>
+
+<div id="gallery" class="hidden">
+
+<h2>Kenangan Kita</h2>
+
+<div id="photos"></div>
 
 </div>
 
